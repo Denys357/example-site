@@ -1,0 +1,559 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	overflow-x: hidden;
+}
+/*Start section header*/
+.rowHead {
+	text-align: center;
+	height: 60px;
+	border-bottom: 1px solid black;
+	background-color: #EEF7F0;
+}
+
+.information a {
+	margin: 8px;
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	font-weight: 600;
+}
+.reg .login {
+	margin: 8px;
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	font-weight: lighter;
+	
+}
+a:hover {
+	color: black;
+}
+.reg .buttonFreeTrial {
+	background-color: #1D727A;
+	padding: 5px 40px;
+	font-size: 16px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.buttonFreeTrial:hover{
+	color: white;
+}
+.hoverBlack:hover {
+	color: black;
+}
+
+@media screen and (max-width: 568px){
+	.rowHead {
+		height:  155px;
+		padding-top: 4px;
+	}
+	.col-12 {
+		margin-bottom:  20px;
+	}
+
+}
+
+/*end section header*/
+
+
+
+
+/*Start first section*/
+
+.rowSectionOne {
+	max-height: 100%;
+	
+	background-color: #EEF7F0;
+	padding: 40px;
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+.devices {
+	display: block;
+	width: 400px;
+	padding-left: 90px;
+}
+
+.section2Information  {
+	padding-left: 70px;
+	
+}
+
+
+a.buttonContact, a.buttonStartYourTrial {
+	text-decoration: none;
+	margin-left: 10px;
+}
+p.section1Content {
+	margin-bottom: 45px;
+	font-size: 15px;
+	line-height: 21px;
+}
+
+a.buttonContact {
+	border: 2px solid #1D727A;
+	padding: 11px 20px;
+	color: #1D727A;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+
+a.buttonStartYourTrial {
+	color: white;
+	background-color: #1D727A;
+	padding: 12px 20px;
+	border: 1px solid #1D727A;
+	font-size: 14px;
+	font-weight: bold;
+}
+h2.section1Title {
+	font-size: 34px;
+	line-height: 40px;
+	font-weight: bold;
+}
+a.buttonStartYourTrial:hover {
+	color: white;
+}
+a.buttonContact:hover {
+	color: #1D727A;
+}
+
+@media screen and (max-width: 568px){
+	.devices {
+		width: 285px;
+		padding-left: 0;
+	}
+	.buttonStartYourTrial, .buttonContact {
+		display: flex;
+		margin: 25px;
+		margin-right: 95px;
+	}
+}
+
+
+/*END first section*/
+
+/*Start second section*/
+.second {
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+.topSections {
+	padding-bottom: 100px ;
+}
+.row_1_SectionTwo {
+	padding: 70px 0;
+}
+.titleSection-1 {
+	padding-bottom: 20px;
+}
+.titleSection-2 {
+	padding-left: 80px;
+}
+.textSection-2 {
+	padding-left: 80px;
+}
+.row_2_SectionTwo {
+	padding: 70px 0;
+	background-color: #EEF7F0;
+}
+.topSections img {
+	padding-left: 28px;
+}
+
+@media screen and (max-width: 568px) {
+	.seaPhoto {
+		width: 300px;
+	}
+	.bottomPhoto {
+		padding-left: 28px;
+	}
+	.row_2_SectionTwo {
+		padding: 20px;
+		
+	}
+	.topSections {
+		padding-bottom: 0;
+	}
+	.second {
+		margin: 0;
+	}
+	.titleSection-2 {
+	padding-left: 0px;
+	text-align: center;
+}
+	.textSection-2 {
+	padding-left: 0px;
+
+}
+	.titleSection-1 {
+	padding-bottom: 0;
+	text-align: center;
+}
+}
+/*END second section*/
+
+
+
+/*Start third section*/
+
+.titleThirdSection {
+	text-align: center;
+	margin-bottom: 120px;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+i {
+	text-align: center;
+	color: black;
+	font-size: 100px;
+	margin-bottom: 25px;
+}
+.text-align-center {
+	text-align: center;
+}
+.subTitleSectionThird {
+	text-align: center;
+	margin-bottom: 30px;
+	position: relative;
+	font-size: 24px;
+	font-weight: bold;
+	color: #1D727A;
+}
+.textSectionThird {
+	text-align: center;
+	margin-bottom: 80px;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.subTitleSectionThird::after {
+	content: "";
+	display: block;
+	position: absolute;
+	top:0;
+	bottom: -17px;
+	left: 187px;
+	right: 187px;
+	border-bottom: 5px solid #1D727A;
+	border-radius: 1px;
+}
+
+/*End third section*/
+
+
+/*Start SectionFourth*/
+.subTitleSectionFourth {
+	text-align: center;
+	font-size: 21px;
+	color: white;
+	font-weight: lighter;
+	padding-bottom: 5px;
+}
+.titleSectionFourth {
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	color: black;
+	font-size: 75px;
+	opacity: 0.06;
+	letter-spacing: 10px;
+	
+}
+
+.rowSectionFourth {
+	position: relative;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin-bottom: 100px;
+	background-image: url(../img/MaskGroup.jpg);
+}
+.rowSectionFourth::after {
+	content: "ANYWHERE";
+	position: absolute;
+	top: calc(50% - 20px);
+	bottom: 0;
+	left: calc(50% - 155px);
+	right: 0;
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+	color: white;
+	opacity: 1;
+	z-index: 2;
+	letter-spacing: 5px;
+
+}
+
+
+@media screen and (max-width: 568px) {
+	.titleSectionFourth {
+		font-size: 55px;
+		letter-spacing: 1px;
+		padding-top: 23px;
+		opacity: 0.1;
+
+	}
+	.rowSectionFourth::after{
+		font-size: 30px;
+		padding-left: 47px;
+		padding-top: 17px;
+	}
+}
+
+/*End section fourth*/
+
+/*Start section fifth*/
+.titleSectionFifth {
+	text-align: center;
+	margin-bottom: 40px;
+	font-size: 50px;
+	font-weight: bold;
+}
+.textSectionFifth {
+	text-align: center;
+	padding: 0 230px;
+	font-size: 15px;
+	line-height: 21px;
+}
+@media screen and (max-width: 568px){
+	.textSectionFifth {
+		padding: 0;
+		text-align: justify;
+	}
+}
+
+/*END section fifth*/
+
+/*Start section sixth*/
+.containerSixth {
+	margin-top: 100px ;
+	background-color: black;
+	opacity: 1;
+	color: white;
+	padding-bottom: 60px;
+}
+.titleSectionSixth {
+	text-align: center;
+	padding: 60px 0;
+	font-size: 50px;
+	font-weight: bold;
+}
+.imgSectionSixth {
+	text-align: center;
+}
+
+
+/*End section sixth*/
+
+
+/*Start section seven*/
+
+.rowSectionSeven {
+	background-color: #EEF7F0;
+	padding: 130px 0;
+}
+.titleSectionSeven {
+	font-size: 34px;
+	line-height: 40px;
+	padding-left: 12px;
+}
+ul li {
+	color:  #1D727A;
+	padding-bottom: 20px;
+	font-size: 15px;
+	line-height: 20px;
+	padding-right: 326px;
+	text-align: justify;
+}
+ul li span {
+	color: black;
+}
+.imgPaddingRight {
+	margin-right: 50px;
+} 
+.buttonSectionSeven {
+	margin-left: 20px;
+	padding: 10px 25px;
+	border: 1px solid #1D727A;
+	text-decoration: none;
+	color: white;
+	background-color:  #1D727A;
+}
+.buttonSectionSeven:hover {
+	color: white;
+}
+
+@media screen and (max-width: 568px){
+	ul li {
+		padding: 10px 0;
+	}
+}
+/*End section seven*/
+
+/*Start section Eight*/
+.containerSectionEight {
+	background-color:  #1D727A;
+}
+.check {
+	font-size: 23px;
+	font-weight: lighter;
+	background-color: #1D727A;
+	padding: 1px;
+	color: white;
+}
+.titleSectionEight  {
+	text-align: center;
+	padding: 30px 0;
+	color: white;
+	font-weight: bold;
+	font-size: 50px;
+}
+.dollar {
+	padding-left: 60px;
+}
+.textUnderNumber {
+	padding: 30px 0;
+	padding-right: 30px;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+
+}
+.contentCheck span {
+
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 10px;
+
+}
+.paddingTop {
+	padding-top: 40px;
+}
+.buttonDemo {
+	padding: 10px 30px;
+	color: #1D727A;
+	text-decoration: none;
+	border-radius: 1px solid black;
+	background-color: white;
+	font-weight: bold;
+}
+.buttonDemo:hover {
+	color: #1D727A;
+}
+.paddingBottom {
+	padding-bottom: 40px;
+}
+
+
+@media screen and (max-width: 568px){
+	.eight {
+		position: relative;
+	}
+	.dollar {
+		padding-bottom: 170px;
+	}
+	.number5Img {
+		position: absolute;
+		top: 110px;
+		left: 110px; 
+	}
+	.buttonDemo {
+		margin-left: 70px;
+	}
+
+}
+/*End section Eight*/
+
+/*Start section nine*/
+.nine {
+	margin: 80px;
+}
+.titleSectionNine {
+	text-align: center;
+	padding-bottom: 30px;
+}
+.regForm {
+	width: 100%;
+	max-width: 500px;
+	margin: 0 auto;
+}
+.userName {
+	margin: 10px;
+	margin-bottom: 20px;
+	padding: 5px 20px;
+	border: 2px solid #1D727A;
+}
+.email {
+	margin-bottom: 20px;
+	padding: 5px 20px;
+	width: 467px;
+	margin-left: 10px;
+	border: 2px solid #1D727A; 
+}
+.message {
+	margin-bottom: 20px;
+	padding: 5px 20px;
+	width: 467px;
+	margin-left: 10px;
+	border: 2px solid #1D727A;
+	height: 150px;
+	margin-top: 10px	
+}
+
+.buttonSubmit {
+	padding: 10px 30px;
+	margin-left: 10px;
+	border: 2px solid #1D727A;
+	background-color: #1D727A;
+	color: white;
+	
+}
+
+
+@media screen and (max-width: 568px) {
+	.titleSectionNine {
+		margin-left: 50px;
+	}
+	.regForm {
+		max-width: 370px;
+		margin: 0 -60px;
+	}
+	.userName {
+		margin: 0 0 10px 10px;
+
+	}
+	.email {
+		width: 300px;
+		margin-bottom: 0;
+	}
+	.message {
+		width: 300px;
+	}
+}
+/*End section nine*/
+
+/*Start Footer*/
+
+.rowFooter {
+	background-color: black;
+	text-align: center;
+	color: white;
+}
+.textFooter {
+	padding: 19px 0 0px 0;
+}
+
+/*End Footer*/
+
+
+
